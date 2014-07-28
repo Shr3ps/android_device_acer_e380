@@ -13,16 +13,16 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/acer/C11/full_C11.mk)
+$(call inherit-product, device/acer/acer_e3/full_acer_e3.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-PRODUCT_NAME := cm_C11
-PRODUCT_DEVICE := C11
-PRODUCT_MODEL := Acer Liquid E2 (V370)
-PRODUCT_RELEASE_NAME := C11
+PRODUCT_NAME := cm_acer_e3
+PRODUCT_DEVICE := acer_e3
+PRODUCT_MODEL := Acer Liquid E3 (E380)
+PRODUCT_RELEASE_NAME := acer_e3
 PRODUCT_BRAND := Android
 PRODUCT_MANUFACTURER := Acer

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=acer
-DEVICE=C11
+DEVICE=acer_e3
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 

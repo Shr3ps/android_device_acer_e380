@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=acer
-DEVICE=C11
+DEVICE=acer_e3
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 
